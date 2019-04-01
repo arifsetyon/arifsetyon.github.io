@@ -196,7 +196,7 @@ h6 {
 }
 
 #intro .intro-info h2 span {
-  color: #3a3a3a;
+  color: #ffffff;
   text-decoration: underline;
 }
 
@@ -639,17 +639,17 @@ h6 {
   margin-bottom: 0;
 }
 
-#why-us {
+#kelas {
   padding: 60px 0;
   background: #e41b13;
 }
 
-#why-us .section-header h3,
-#why-us .section-header p {
+#kelas .section-header h3,
+#kelas .section-header p {
   color: #fff;
 }
 
-#why-us .card {
+#kelas .card {
   background: #bb0700;
   border-color: #bb0700;
   border-radius: 10px;
@@ -661,42 +661,42 @@ h6 {
   height: 100%;
 }
 
-#why-us .card:hover {
+#kelas .card:hover {
   background: #fff;
   border-color: #fff;
   color: #e41b13;
 }
 
-#why-us .card:hover p{
+#kelas .card:hover p{
   color: #e41b13;
 }
 
-#why-us .card:hover i{
+#kelas .card:hover i{
   color: #e41b13;
 }
 
-#why-us .card:hover a{
+#kelas .card:hover a{
   color: #e41b13;
 }
 
 
-#why-us .card i {
+#kelas .card i {
   font-size: 48px;
   padding-top: 15px;
   color: #fff;
 }
 
-#why-us .card h5 {
+#kelas .card h5 {
   font-size: 22px;
   font-weight: 600;
 }
 
-#why-us .card p {
+#kelas .card p {
   font-size: 15px;
   color: #d8eafe;
 }
 
-#why-us .card .readmore {
+#kelas .card .readmore {
   color: #fff;
   font-weight: 600;
   display: inline-block;
@@ -704,15 +704,15 @@ h6 {
   border-bottom: #fff solid 2px;
 }
 
-#why-us .card .readmore:hover {
+#kelas .card .readmore:hover {
   border-bottom: #fff solid 2px;
 }
 
-#why-us .counters {
+#kelas .counters {
   padding-top: 40px;
 }
 
-#why-us .counters span {
+#kelas .counters span {
   font-family: "Montserrat", sans-serif;
   font-weight: bold;
   font-size: 48px;
@@ -720,7 +720,7 @@ h6 {
   color: #fff;
 }
 
-#why-us .counters p {
+#kelas .counters p {
   padding: 0;
   margin: 0 0 20px 0;
   font-family: "Montserrat", sans-serif;
@@ -731,19 +731,19 @@ h6 {
 /* Portfolio Section
 --------------------------------*/
 
-#portfolio {
+#blog {
   padding: 60px 0;
   box-shadow: 0px 0px 12px 0px rgba(0, 0, 0, 0.1);
 }
 
-#portfolio #portfolio-flters {
+#blog #portfolio-flters {
   padding: 0;
   margin: 5px 0 35px 0;
   list-style: none;
   text-align: center;
 }
 
-#portfolio #portfolio-flters li {
+#blog #portfolio-flters li {
   cursor: pointer;
   margin: 15px 15px 15px 0;
   display: inline-block;
@@ -758,35 +758,35 @@ h6 {
   transition: all 0.3s ease-in-out;
 }
 
-#portfolio #portfolio-flters li:hover,
-#portfolio #portfolio-flters li.filter-active {
+#blog #portfolio-flters li:hover,
+#blog #portfolio-flters li.filter-active {
   background: #e41b13;
   color: #fff;
 }
 
-#portfolio #portfolio-flters li:last-child {
+#blog #portfolio-flters li:last-child {
   margin-right: 0;
 }
 
-#portfolio .portfolio-item {
+#blog .portfolio-item {
   position: relative;
   overflow: hidden;
   margin-bottom: 30px;
 }
 
-#portfolio .portfolio-item .portfolio-wrap {
+#blog .portfolio-item .portfolio-wrap {
   overflow: hidden;
   position: relative;
   border-radius: 6px;
   margin: 0;
 }
 
-#portfolio .portfolio-item .portfolio-wrap:hover img {
+#blog .portfolio-item .portfolio-wrap:hover img {
   opacity: 0.4;
   transition: 0.3s;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info {
+#blog .portfolio-item .portfolio-wrap .portfolio-info {
   position: absolute;
   top: 0;
   right: 0;
@@ -814,7 +814,7 @@ h6 {
   transition: 0.2s linear;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 {
+#blog .portfolio-item .portfolio-wrap .portfolio-info h4 {
   font-size: 22px;
   line-height: 1px;
   font-weight: 700;
@@ -822,15 +822,15 @@ h6 {
   padding-bottom: 0;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a {
-  color: #fff;
-}
-
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
+#blog .portfolio-item .portfolio-wrap .portfolio-info h4 a {
   color: #e41b13;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info p {
+#blog .portfolio-item .portfolio-wrap .portfolio-info h4 a:hover {
+  color: #fff;
+}
+
+#blog .portfolio-item .portfolio-wrap .portfolio-info p {
   padding: 0;
   margin: 0;
   color: #e2effe;
@@ -839,8 +839,8 @@ h6 {
   text-transform: uppercase;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details {
+#blog .portfolio-item .portfolio-wrap .portfolio-info .link-preview,
+#blog .portfolio-item .portfolio-wrap .portfolio-info .link-details {
   display: inline-block;
   line-height: 1;
   text-align: center;
@@ -851,29 +851,29 @@ h6 {
   margin: 10px 4px 0 4px;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details i {
+#blog .portfolio-item .portfolio-wrap .portfolio-info .link-preview i,
+#blog .portfolio-item .portfolio-wrap .portfolio-info .link-details i {
   padding-top: 6px;
   font-size: 22px;
   color: #fff;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
+#blog .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover,
+#blog .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover {
   background: #ffffff;
   color: #e41b13;
 }
 
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
-#portfolio .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
+#blog .portfolio-item .portfolio-wrap .portfolio-info .link-preview:hover i,
+#blog .portfolio-item .portfolio-wrap .portfolio-info .link-details:hover i {
   color: #e41b13;;
 }
 
-#portfolio .portfolio-item .portfolio-wrap:hover {
+#blog .portfolio-item .portfolio-wrap:hover {
   background: #e41a1315;
 }
 
-#portfolio .portfolio-item .portfolio-wrap:hover .portfolio-info {
+#blog .portfolio-item .portfolio-wrap:hover .portfolio-info {
   opacity: 1;
 }
 
@@ -1389,7 +1389,7 @@ h6 {
     text-align: center;
   }
 
-  #why-us .card {
+  #kelas .card {
     margin: 0;
   }
 }
